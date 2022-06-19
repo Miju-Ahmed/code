@@ -1,12 +1,14 @@
+#include<bits/stdc++.h>
 #include<stdio.h>
 #include<ctype.h>
 #include<string.h>
 #include<math.h>
-char stack[20];
+using namespace std;
+char st[20];
 int top = -1;
 void push(char x)
 {
-    stack[++top] = x;
+    st[++top] = x;
 }
 
 char pop()
@@ -14,7 +16,7 @@ char pop()
     if(top == -1)
         return -1;
     else
-        return stack[top--];
+        return st[top--];
 }
 
 void Evaluate(char *post)
@@ -49,6 +51,7 @@ void Evaluate(char *post)
         }
         i++;
     }
+    printf("\n");
     printf("%d",pop());
     
 }
@@ -61,6 +64,7 @@ int priority(char x)
         return 1;
     else if (x == '*' || x == '/')
         return 2;
+    return -1;
 }
 
 int isalum(char x)
@@ -101,7 +105,7 @@ int main()
         }
         else
         {
-            while (priority(stack[top])>= priority(*e))
+            while (priority(st[top])>= priority(*e))
             {
                 post[i] = pop();
                 printf("%c",post[i]);
