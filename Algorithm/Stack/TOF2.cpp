@@ -16,6 +16,6 @@ void towerOfHanoi(int n, char from, char to, char aux)
 int main()
 {
     int n=4;
-    cout<<towerOfHanoi(n,'A','B','C');
+    towerOfHanoi(n,'A','B','C');
     return 0;
 }

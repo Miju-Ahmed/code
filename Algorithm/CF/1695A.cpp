@@ -6,24 +6,26 @@ void solve()
 {
     int m,n,r=0;
     cin>>n>>m;
-    ll a[n][m];
+    ll a[n+3][m+4];
     int h,w;
+    int k,l;
+    int mx = INT_MIN;
 
-    for(int i=0; i<n; i++)
-        for(int j=0; j<m; j++)
+    for(int i=1; i<=n; i++)
+        for(int j=1; j<=m; j++)
+        {
             cin>>a[i][j];
+            if(a[i][j]>mx)
+            {
+                mx = a[i][j];
+                k=i;
+                l = j;
+            }
+        }
 
-    
-    if(m==1&&n==1)
-        r = m*n;
-    else if(m>n)
-        r = (m-1)*n;
-    else if(n>m)
-        r = (n-1)*m;
-    else
-        r = (m-1)*(n-1);
-
-    cout<<r<<endl;
+    h = max(k,(n-k)+1);
+    w = max(l,(m-l)+1);
+    cout<<h*w<<endl;
 }
 int main()
 {

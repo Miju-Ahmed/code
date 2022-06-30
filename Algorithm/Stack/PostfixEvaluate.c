@@ -53,7 +53,7 @@ int main()
             }
             push(ans);
         }        
-
+        display();
        i++;
     }
 

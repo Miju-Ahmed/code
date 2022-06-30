@@ -11,7 +11,7 @@ void display();
 //function Prototype End
 
 //Global Variable Start
-int stack[25]={0};
+int stack[25];
 int top = -1;
 int ch;
 //Global Variable End
@@ -93,6 +93,6 @@ void display()
 {
     printf("\nStack S = ");
     for(int i=0; i<=top; i++)
-        printf(" | %d ", stack[i]);
+        cout<<" | "<<toint
 }
 //User defined functions End
