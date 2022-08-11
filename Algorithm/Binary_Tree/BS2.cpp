@@ -69,13 +69,19 @@ int main()
 {
     vector<int> keys;
     int x;
+    cout<<"Enter the elements of tree: ";
+    cin>>x;
+    keys.push_back(x);
     Node* root = constructorBST(keys);
     while (x!=-1)
     {
-        cin>>x;
+        //cin>>x;
         keys.push_back(x);
         root = constructorBST(keys);
+        cout<<"The tree is : "<<endl;
         printBST(root);
+        cout<<"Enter the elements of tree: ";
+        cin>>x;
     }
     
     return 0;

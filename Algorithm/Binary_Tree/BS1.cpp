@@ -67,6 +67,36 @@ void printBinaryTree(Node* root, int space = 0, int height = 10)
     printBinaryTree(root->left, space);
 }
 
+
+
+
+Node* getMinimumKey(Node* curr)
+{
+    while (curr->left!= nullptr)
+    {
+        curr=curr->left;
+    }
+    return curr;
+    
+}
+
+void searchKey(Node* &curr, int key, Node* &parent)
+{
+    while (curr!=nullptr && curr->data!=key)
+    {
+        parent = key;
+        if(key<curr->data)
+        {
+            curr = curr->left;
+        }
+        else
+        {
+            curr = curr->right;
+        }
+    }
+    
+}
+
 void deleteNode(Node* &root, int key)
 {
     Node* parent = nullptr;
@@ -100,9 +130,26 @@ void deleteNode(Node* &root, int key)
         curr->data = val;
     }
     else
-    [
-        Node* child = (curr->left)? curr->left
-    ]
+    {
+        Node* child = (curr->left)? curr->left: curr->right;
+
+        if(curr!=root)
+        {
+            if(curr==parent->left)
+            {
+                parent->left = child;
+            }
+            else
+            {
+                parent->right = child;
+            }
+        }
+        else
+        {
+            root = child;
+        }
+        free(curr);
+    }
 }
  
 int main()
@@ -116,12 +163,19 @@ int main()
     printBinaryTree(root);
 
     int x;
+    cout<<"Enter the elements of tree: ";
+    cin>>x;
+    keys.push_back(x);
+    Node* root = constructBST(keys);
     while (x!=-1)
     {
-        cin>>x;
+        
         keys.push_back(x);
         Node* root = constructBST(keys);
+        cout<<"The tree is : "<<endl;
         printBinaryTree(root);
+        cout<<"Enter the elements of tree: ";
+        cin>>x;
     }
     
     return 0;
