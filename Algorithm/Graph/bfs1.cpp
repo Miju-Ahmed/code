@@ -40,5 +40,16 @@ int main()
         graph[u].push_back(v);
         graph[v].push_back(u);
     }
-    bfs(0, n);
+    int c = 0;
+    for(int i=0; i<n; i++)
+    {
+        if(visited[i]==false)
+        {
+            bfs(0, n-1);
+            c++;
+        }
+    }
+    cout<<"Connected are: "<<c<<endl;
+    return 0;
+    
 }

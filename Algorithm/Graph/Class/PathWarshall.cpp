@@ -12,22 +12,33 @@ int main()
         for(int j=0; j<n; j++)
             cin>>g[i][j];
 
-    //copying the graph into the path matrix
+    // copying the graph into the path matrix
     int path[n+1][n][n] = {0};
     for(int i=0; i<n; i++)
         for(int j=0; j<n; j++)
-            path[1][i][j] = g[i][j];
+            path[0][i][j] = g[i][j];
     
-    //Find the path by using Floyed Warshall algorithm
+    // Find the path by using Floyed Warshall algorithm
     for(int l=1; l<=n; l++)
         for(int k=0; k<n; k++)
             for(int i=0; i<n; i++)
                 for(int j=0; j<n; j++)
-                    path[l][i][j] = path[l][i][j] | (path[l][i][k]& path[l][k][j]);
+                    path[l][i][j] = path[l-1][i][j] | (path[l-1][i][k]& path[l-1][k][j]);
+
+
+    // int p[n][n];
+    // for(int i=0; i<n; i++)
+    //     for(int j=0; j<n; j++)
+    //         p[i][j] = g[i][j];
+    
+    // for(int k=0; k<n; k++)
+    //     for(int i=0; i<n; i++)
+    //         for(int j=0; j<n; j++)
+    //             p[i][j] = p[i][j] | (p[i][k]&p[k][j]);
     
     //Print the path matrix
     cout<<endl;
-    for(int l=1; l<=n; l++)
+    for(int l=1; l<n; l++)
     {
         cout<<"The matrics is : \n";
         for(int i=0; i<n; i++)
@@ -42,10 +53,19 @@ int main()
             for(int j=0; j<n; j++)
             {
                 if(path[l][i][j]!=0)
-                cout<<j+1<<" ";
+                    cout<<j+1<<" ";
             }
             cout<<endl;
         }
     }
+
+    // for(int i=0; i<n; i++)
+    // {
+    //     for(int j=0; j<n; j++)
+    //         cout<<p[i][j]<<" ";
+    //     cout<<endl;
+    // }
     cout<<"\n\n";
+
+    return 0;
 }
