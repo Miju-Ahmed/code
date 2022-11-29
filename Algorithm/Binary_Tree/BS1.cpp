@@ -84,7 +84,7 @@ void searchKey(Node* &curr, int key, Node* &parent)
 {
     while (curr!=nullptr && curr->data!=key)
     {
-        parent = key;
+        parent->data = key;
         if(key<curr->data)
         {
             curr = curr->left;
@@ -165,18 +165,18 @@ int main()
     int x;
     cout<<"Enter the elements of tree: ";
     cin>>x;
-    keys.push_back(x);
-    Node* root = constructBST(keys);
     while (x!=-1)
     {
         
         keys.push_back(x);
-        Node* root = constructBST(keys);
+        root = constructBST(keys);
         cout<<"The tree is : "<<endl;
         printBinaryTree(root);
         cout<<"Enter the elements of tree: ";
         cin>>x;
     }
+    deleteNode(root, 45);
+    printBinaryTree(root);
     
     return 0;
 }

@@ -1,0 +1,7 @@
+module seq_31(j,k,clk,clr,a,abar);
+input j,k,clk,clr;
+output[2:0]a,abar;
+jkff jk0(a[1]&a[2],a[1],clk,clr,a[0],abar[0]);
+jkff jk1(~a[2],a[0],clk,clr,a[1],abar[1]);
+jkff jk2(~a[1],~a[1]|a[0],clk,clr,a[2],abar[2]);
+endmodule

@@ -19,7 +19,7 @@ string inToPost(string infix ) {
    stack<char> stk;
    stk.push('#');               //add some extra character to avoid underflow
    string postfix = "";         //initially the postfix string is empty
-   string::iterator it;
+   string:: iterator it;
 
    for(it = infix.begin(); it!=infix.end(); it++) {
       if(isalnum(char(*it)))

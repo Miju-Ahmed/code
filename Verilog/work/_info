@@ -1,0 +1,1240 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/miju
+vad_3
+!s110 1669554626
+!i10b 1
+!s100 ]12GXQ3kL17Dm;Qb[?5e[2
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IZ3aLUnPNDIzEOjEEi1Vli0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/miju/code/Verilog
+w1669554617
+8/home/miju/code/Verilog/Adder_Subtractor_3.v
+F/home/miju/code/Verilog/Adder_Subtractor_3.v
+!i122 72
+Z3 L0 1 20
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1669554626.000000
+!s107 /home/miju/code/Verilog/Adder_Subtractor_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/Adder_Subtractor_3.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vadd
+!s110 1669124592
+!i10b 1
+!s100 Gc8<AGC0K6;^0=5[>[UG@0
+R0
+IV_K[^2>J62TD<=3dgNc0n1
+R1
+R2
+w1669114875
+Z7 8/home/miju/code/Verilog/full_adder.v
+Z8 F/home/miju/code/Verilog/full_adder.v
+!i122 5
+Z9 L0 1 5
+R4
+r1
+!s85 0
+31
+!s108 1669124592.000000
+Z10 !s107 /home/miju/code/Verilog/full_adder.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/full_adder.v|
+!i113 1
+R5
+R6
+vAdd_Sub
+Z12 !s110 1669135113
+!i10b 1
+!s100 [?YilLzanKV9<55P08j@U1
+R0
+IRI43W]0YKTgIUJc`e0:XF0
+R1
+R2
+Z13 w1669135072
+Z14 8/home/miju/code/Verilog/Adder_Subtractor.v
+Z15 F/home/miju/code/Verilog/Adder_Subtractor.v
+!i122 10
+L0 12 16
+R4
+r1
+!s85 0
+31
+Z16 !s108 1669135113.000000
+Z17 !s107 /home/miju/code/Verilog/Adder_Subtractor.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/Adder_Subtractor.v|
+!i113 1
+R5
+R6
+n@add_@sub
+vas2
+!s110 1669527090
+!i10b 1
+!s100 kHnMUmaOS??E_8dm]D]:]3
+R0
+Io3kG^WMX?jXoCH?4L8]DK1
+R1
+R2
+w1669523126
+8/home/miju/code/Verilog/adder_subtractor2.v
+F/home/miju/code/Verilog/adder_subtractor2.v
+!i122 63
+Z19 L0 1 18
+R4
+r1
+!s85 0
+31
+!s108 1669527090.000000
+!s107 /home/miju/code/Verilog/adder_subtractor2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/adder_subtractor2.v|
+!i113 1
+R5
+R6
+vas_4
+!s110 1669601261
+!i10b 1
+!s100 _^4zdJl;gIbU3[9XB5hP82
+R0
+IJ9B`VNzjc^R:;@n:UFhfN0
+R1
+R2
+w1669601255
+8/home/miju/code/Verilog/as_4.v
+F/home/miju/code/Verilog/as_4.v
+!i122 87
+Z20 L0 1 19
+R4
+r1
+!s85 0
+31
+!s108 1669601261.000000
+!s107 /home/miju/code/Verilog/as_4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/as_4.v|
+!i113 1
+R5
+R6
+vb2e3
+!s110 1669527905
+!i10b 1
+!s100 VOHU4ocz6gDd@PL@:HIlK3
+R0
+I29G>XAkAFDM91`hTd5PX:2
+R1
+R2
+w1669527888
+8/home/miju/code/Verilog/bcd2excess3.v
+F/home/miju/code/Verilog/bcd2excess3.v
+!i122 65
+Z21 L0 1 15
+R4
+r1
+!s85 0
+31
+!s108 1669527905.000000
+!s107 /home/miju/code/Verilog/bcd2excess3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/bcd2excess3.v|
+!i113 1
+R5
+R6
+vbe_3
+!s110 1669556117
+!i10b 1
+!s100 k4?kI[kdPYdYgXfDaIWFb2
+R0
+I`EOE?M`BD2QnTPW[[gRP_3
+R1
+R2
+w1669556112
+8/home/miju/code/Verilog/BCD_EXCESS_3_3.v
+F/home/miju/code/Verilog/BCD_EXCESS_3_3.v
+!i122 73
+Z22 L0 1 16
+R4
+r1
+!s85 0
+31
+!s108 1669556117.000000
+!s107 /home/miju/code/Verilog/BCD_EXCESS_3_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/BCD_EXCESS_3_3.v|
+!i113 1
+R5
+R6
+vboc_excess3
+!s110 1669137535
+!i10b 1
+!s100 JzoJT4Wg3I2^WU]D8z0GM3
+R0
+ISPj?7dP_hd^FLA]^CMeOV2
+R1
+R2
+w1669137531
+8/home/miju/code/Verilog/BCD_EXCESS3.v
+F/home/miju/code/Verilog/BCD_EXCESS3.v
+!i122 11
+R19
+R4
+r1
+!s85 0
+31
+!s108 1669137535.000000
+!s107 /home/miju/code/Verilog/BCD_EXCESS3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/BCD_EXCESS3.v|
+!i113 1
+R5
+R6
+vcounter
+!s110 1669172661
+!i10b 1
+!s100 Z0]YkjTHQ6f3_5YkA=dJE1
+R0
+I]edRT6l<9ZHok_0oW38f>1
+R1
+R2
+w1669172654
+Z23 8/home/miju/code/Verilog/MOD_10.v
+Z24 F/home/miju/code/Verilog/MOD_10.v
+!i122 23
+R21
+R4
+r1
+!s85 0
+31
+!s108 1669172661.000000
+Z25 !s107 /home/miju/code/Verilog/MOD_10.v|
+Z26 !s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/MOD_10.v|
+!i113 1
+R5
+R6
+ve2b
+!s110 1669528532
+!i10b 1
+!s100 l8PeW=_5YdH<<16OTlIE<0
+R0
+IEz=aMXLmlHFnebN^Yco:b1
+R1
+R2
+w1669528527
+8/home/miju/code/Verilog/excess3bcd2.v
+F/home/miju/code/Verilog/excess3bcd2.v
+!i122 67
+R19
+R4
+r1
+!s85 0
+31
+!s108 1669528532.000000
+!s107 /home/miju/code/Verilog/excess3bcd2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/excess3bcd2.v|
+!i113 1
+R5
+R6
+veb_3
+!s110 1669556411
+!i10b 1
+!s100 OFWM8ZV[13ckB?<^DB:lY1
+R0
+I?0YkOY?W3M?>1Y1;J;Inz2
+R1
+R2
+w1669556406
+8/home/miju/code/Verilog/EXCESS-3_BCD_3.v
+F/home/miju/code/Verilog/EXCESS-3_BCD_3.v
+!i122 74
+R3
+R4
+r1
+!s85 0
+31
+!s108 1669556411.000000
+!s107 /home/miju/code/Verilog/EXCESS-3_BCD_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/EXCESS-3_BCD_3.v|
+!i113 1
+R5
+R6
+vfa
+!s110 1669522984
+!i10b 1
+!s100 Yd?Q@]QjRbWkff0VbC2Xc2
+R0
+I>i0N1eRhIhPkLlb25jR]e1
+R1
+R2
+w1669522978
+R7
+R8
+!i122 60
+Z27 L0 1 10
+R4
+r1
+!s85 0
+31
+!s108 1669522984.000000
+R10
+R11
+!i113 1
+R5
+R6
+vfa_3
+!s110 1669554362
+!i10b 1
+!s100 >[ORjHiDHH?c[RcViQAg10
+R0
+I=T8U<BBI9@g1m20W=GfeN2
+R1
+R2
+w1669553577
+8/home/miju/code/Verilog/Full_Adder_3.v
+F/home/miju/code/Verilog/Full_Adder_3.v
+!i122 71
+Z28 L0 1 13
+R4
+r1
+!s85 0
+31
+!s108 1669554362.000000
+!s107 /home/miju/code/Verilog/Full_Adder_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/Full_Adder_3.v|
+!i113 1
+R5
+R6
+vfa_4
+!s110 1669600995
+!i10b 1
+!s100 bf@=2k;_XanZ3BQI^DRcV2
+R0
+IJ_VMhYifzW;kG>RYe@bVf0
+R1
+R2
+w1669600981
+8/home/miju/code/Verilog/fa_4.v
+F/home/miju/code/Verilog/fa_4.v
+!i122 85
+Z29 L0 1 14
+R4
+r1
+!s85 0
+31
+!s108 1669600995.000000
+!s107 /home/miju/code/Verilog/fa_4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/fa_4.v|
+!i113 1
+R5
+R6
+vfull_adder
+R12
+!i10b 1
+!s100 A3f=nkaYVTGKlD?ADaS0=3
+R0
+I9FIiiASaJalniI=L_Cj>`3
+R1
+R2
+R13
+R14
+R15
+!i122 10
+R27
+R4
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R5
+R6
+vFull_Adder4
+!s110 1669124582
+!i10b 1
+!s100 ZN2ezgKMJeKWHcdRVi2_`3
+R0
+I:6PMPN5jJWXKGbZk7d<Re2
+R1
+R2
+w1669123774
+8/home/miju/code/Verilog/full_adder1.v
+F/home/miju/code/Verilog/full_adder1.v
+!i122 4
+L0 12 11
+R4
+r1
+!s85 0
+31
+!s108 1669124582.000000
+!s107 /home/miju/code/Verilog/full_adder1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/full_adder1.v|
+!i113 1
+R5
+R6
+n@full_@adder4
+vha
+!s110 1669521837
+!i10b 1
+!s100 VIBzDIjVFKU37hJ<lc1IE2
+R0
+IE5PiZ@zf0dCb4_`dDf6`[1
+R1
+R2
+w1669521833
+8/home/miju/code/Verilog/half_adder.v
+F/home/miju/code/Verilog/half_adder.v
+!i122 57
+L0 1 6
+R4
+r1
+!s85 0
+31
+!s108 1669521837.000000
+!s107 /home/miju/code/Verilog/half_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/half_adder.v|
+!i113 1
+R5
+R6
+vjk2
+!s110 1669518129
+!i10b 1
+!s100 gL34;9;nVaLiQ9>>OHzUY2
+R0
+IVKn_X5;0GgifacCETM8<N2
+R1
+R2
+w1669517033
+8/home/miju/code/Verilog/jk2.v
+F/home/miju/code/Verilog/jk2.v
+!i122 47
+R29
+R4
+r1
+!s85 0
+31
+!s108 1669518129.000000
+!s107 /home/miju/code/Verilog/jk2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/jk2.v|
+!i113 1
+R5
+R6
+vjk_4
+!s110 1669601682
+!i10b 1
+!s100 PbASCn@e9EZZaM1f[MecL0
+R0
+I959_goK1iCkUB>KG7nWba2
+R1
+R2
+w1669601678
+8/home/miju/code/Verilog/JK_4.v
+F/home/miju/code/Verilog/JK_4.v
+!i122 88
+R20
+R4
+r1
+!s85 0
+31
+!s108 1669601682.000000
+!s107 /home/miju/code/Verilog/JK_4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/JK_4.v|
+!i113 1
+R5
+R6
+vJK_FF
+Z30 !s110 1669205937
+!i10b 1
+!s100 @=8@U0?m2`0<PBLYe>1gA3
+R0
+IF8R[FA8B5da:AQQdYGQ;61
+R1
+R2
+Z31 w1669178456
+Z32 8/home/miju/code/Verilog/Ripple_Counter.v
+Z33 F/home/miju/code/Verilog/Ripple_Counter.v
+!i122 27
+R22
+R4
+r1
+!s85 0
+31
+Z34 !s108 1669205937.000000
+Z35 !s107 /home/miju/code/Verilog/Ripple_Counter.v|
+Z36 !s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/Ripple_Counter.v|
+!i113 1
+R5
+R6
+n@j@k_@f@f
+vjk_flop
+Z37 !s110 1669206611
+!i10b 1
+!s100 I[[8g;<L?Y0ka8PZo858Z1
+R0
+I9aW<WPnPDDM?SlGBK7VD>0
+R1
+R2
+Z38 w1669206606
+Z39 8/home/miju/code/Verilog/Up_Down.v
+Z40 F/home/miju/code/Verilog/Up_Down.v
+!i122 29
+R29
+R4
+r1
+!s85 0
+31
+Z41 !s108 1669206611.000000
+Z42 !s107 /home/miju/code/Verilog/Up_Down.v|
+Z43 !s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/Up_Down.v|
+!i113 1
+R5
+R6
+vjkff
+!s110 1669210936
+!i10b 1
+!s100 Un7V4joa4[BbDI:n??^oc0
+R0
+INL>hV?XTFMDeQf9OGT@z01
+R1
+R2
+w1669210437
+8/home/miju/code/Verilog/JK_FF.v
+F/home/miju/code/Verilog/JK_FF.v
+!i122 33
+R29
+R4
+r1
+!s85 0
+31
+!s108 1669210936.000000
+!s107 /home/miju/code/Verilog/JK_FF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/JK_FF.v|
+!i113 1
+R5
+R6
+vjkff_3
+!s110 1669556945
+!i10b 1
+!s100 PY`1IJOZHJ4QD:ki:1DdI2
+R0
+Ic]lDUj;<YlGXV7_fhDcz@1
+R1
+R2
+w1669556928
+8/home/miju/code/Verilog/JK_FF_3.v
+F/home/miju/code/Verilog/JK_FF_3.v
+!i122 75
+R19
+R4
+r1
+!s85 0
+31
+!s108 1669556945.000000
+!s107 /home/miju/code/Verilog/JK_FF_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/JK_FF_3.v|
+!i113 1
+R5
+R6
+vmod
+!s110 1669225227
+!i10b 1
+!s100 ^]YRZhoT]PVzn8[I0DG9`1
+R0
+IKNhU2TE[i>gnRaY`cA4P[2
+R1
+R2
+w1669225221
+Z44 8/home/miju/code/Verilog/Rip_Mod.v
+Z45 F/home/miju/code/Verilog/Rip_Mod.v
+!i122 41
+R27
+R4
+r1
+!s85 0
+31
+!s108 1669225227.000000
+Z46 !s107 /home/miju/code/Verilog/Rip_Mod.v|
+Z47 !s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/Rip_Mod.v|
+!i113 1
+R5
+R6
+vmod10
+!s110 1669222858
+!i10b 1
+!s100 cRSoZX15:U0YdiYIfWEQQ0
+R0
+INAMVYF^D4iQg37L<ciG8X1
+R1
+R2
+w1669222850
+8/home/miju/code/Verilog/mod10.v
+F/home/miju/code/Verilog/mod10.v
+!i122 40
+L0 1 11
+R4
+r1
+!s85 0
+31
+!s108 1669222858.000000
+!s107 /home/miju/code/Verilog/mod10.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/mod10.v|
+!i113 1
+R5
+R6
+vmod2
+!s110 1669521172
+!i10b 1
+!s100 QFn`Skb[Poi=8^WKVeQLX0
+R0
+I:nh3GcURDD`b^LnIn9LR_3
+R1
+R2
+w1669521167
+8/home/miju/code/Verilog/mod102.v
+F/home/miju/code/Verilog/mod102.v
+!i122 55
+R27
+R4
+r1
+!s85 0
+31
+!s108 1669521172.000000
+!s107 /home/miju/code/Verilog/mod102.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/mod102.v|
+!i113 1
+R5
+R6
+vmod3
+!s110 1669225373
+!i10b 1
+!s100 UlS>JZGzPV^Yb9ic3H6B;0
+R0
+Ic<jVXS;olAcd;o4R0M7>k0
+R1
+R2
+w1669225368
+R44
+R45
+!i122 43
+R27
+R4
+r1
+!s85 0
+31
+!s108 1669225373.000000
+R46
+R47
+!i113 1
+R5
+R6
+vMod_10
+R30
+!i10b 1
+!s100 WNGn]VCcQ2[?Y9J5V:`fJ2
+R0
+IGH19]5D8laUNXGk44eKMn2
+R1
+R2
+R31
+R32
+R33
+!i122 27
+Z48 L0 18 8
+R4
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 1
+R5
+R6
+n@mod_10
+vMOD_10
+!s110 1669143611
+!i10b 1
+!s100 2<:MEhh1nVPcNbODFA>7Y2
+R0
+I315LXP]D8dK]6be]7WNIA2
+R1
+R2
+w1669143606
+R23
+R24
+!i122 16
+L0 17 10
+R4
+r1
+!s85 0
+31
+!s108 1669143611.000000
+R25
+R26
+!i113 1
+R5
+R6
+n@m@o@d_10
+vmod_3
+!s110 1669558102
+!i10b 1
+!s100 g6na7RG>Z@lL;l4o3zn:V1
+R0
+IVLTCP^;X0KmT`L0m2HME@3
+R1
+R2
+w1669558093
+8/home/miju/code/Verilog/MOD-10_3.v
+F/home/miju/code/Verilog/MOD-10_3.v
+!i122 78
+R28
+R4
+r1
+!s85 0
+31
+!s108 1669558102.000000
+!s107 /home/miju/code/Verilog/MOD-10_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/MOD-10_3.v|
+!i113 1
+R5
+R6
+vmod_4
+!s110 1669602047
+!i10b 1
+!s100 GJX8Wg7TFJHzY]5ed2g2n1
+R0
+I;^b@3<]^N:W]VBbOYcn131
+R1
+R2
+w1669602042
+8/home/miju/code/Verilog/Mod_4.v
+F/home/miju/code/Verilog/Mod_4.v
+!i122 89
+R29
+R4
+r1
+!s85 0
+31
+!s108 1669602047.000000
+!s107 /home/miju/code/Verilog/Mod_4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/Mod_4.v|
+!i113 1
+R5
+R6
+vrc2
+!s110 1669521567
+!i10b 1
+!s100 Z_>dG086FVTN206`KM7HH1
+R0
+IYP4BIa<n_i8@UM^f89Vj=1
+R1
+R2
+w1669521559
+8/home/miju/code/Verilog/ripple_counter2.v
+F/home/miju/code/Verilog/ripple_counter2.v
+!i122 56
+R27
+R4
+r1
+!s85 0
+31
+!s108 1669521567.000000
+!s107 /home/miju/code/Verilog/ripple_counter2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/ripple_counter2.v|
+!i113 1
+R5
+R6
+vripple
+!s110 1669209675
+!i10b 1
+!s100 9a040YkU;fUREnNFcFfb60
+R0
+I2TndAzZ9;hZL`k7z=f7Lm1
+R1
+R2
+w1669209665
+8/home/miju/code/Verilog/Mod(1).v
+F/home/miju/code/Verilog/Mod(1).v
+!i122 31
+L0 16 8
+R4
+r1
+!s85 0
+31
+!s108 1669209675.000000
+!s107 /home/miju/code/Verilog/Mod(1).v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/Mod(1).v|
+!i113 1
+R5
+R6
+vripple_counter
+!s110 1669210952
+!i10b 1
+!s100 8HohZQjkj>jJ:6BS;:_fk0
+R0
+IbB4H@:2K9^Z`DiA]fGDF>2
+R1
+R2
+w1669210932
+8/home/miju/code/Verilog/ripple_counter.v
+F/home/miju/code/Verilog/ripple_counter.v
+!i122 34
+Z49 L0 1 9
+R4
+r1
+!s85 0
+31
+!s108 1669210952.000000
+!s107 /home/miju/code/Verilog/ripple_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/ripple_counter.v|
+!i113 1
+R5
+R6
+vRipple_Counter_4_Bit
+!s110 1669145674
+!i10b 1
+!s100 ]1^Al=c=]TAh6<1JZH9>k2
+R0
+IFNF@m7:Mf^<VcRJ8ohgGU0
+R1
+R2
+w1669145665
+R23
+R24
+!i122 22
+L0 18 9
+R4
+r1
+!s85 0
+31
+!s108 1669145674.000000
+R25
+R26
+!i113 1
+R5
+R6
+n@ripple_@counter_4_@bit
+vRipple_Counter_4Bit
+!s110 1669145289
+!i10b 1
+!s100 L@1SRl[COkSE5_DAnZh;50
+R0
+IQ2@OH2M@VIf>Kn9DDk4hS3
+R1
+R2
+w1669142286
+R32
+R33
+!i122 20
+R48
+R4
+r1
+!s85 0
+31
+!s108 1669145289.000000
+R35
+R36
+!i113 1
+R5
+R6
+n@ripple_@counter_4@bit
+vrp_3
+!s110 1669557216
+!i10b 1
+!s100 FeXMMSmoD[N`Y4;jDPOf`2
+R0
+I_l00E[dRTe9^fj=D]3gdV2
+R1
+R2
+w1669557211
+8/home/miju/code/Verilog/Ripple_Counter_3.v
+F/home/miju/code/Verilog/Ripple_Counter_3.v
+!i122 76
+R28
+R4
+r1
+!s85 0
+31
+!s108 1669557216.000000
+!s107 /home/miju/code/Verilog/Ripple_Counter_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/Ripple_Counter_3.v|
+!i113 1
+R5
+R6
+vs_4
+!s110 1669604106
+!i10b 1
+!s100 PzVJPE9>ljbXLhZ=b5SHY3
+R0
+I:dZI9`_1hM0>hXTEP4`^S2
+R1
+R2
+w1669604101
+8/home/miju/code/Verilog/seq_4.v
+F/home/miju/code/Verilog/seq_4.v
+!i122 94
+R27
+R4
+r1
+!s85 0
+31
+!s108 1669604106.000000
+!s107 /home/miju/code/Verilog/seq_4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/seq_4.v|
+!i113 1
+R5
+R6
+vseq_3
+!s110 1669572054
+!i10b 1
+!s100 eLQQmfNg56YTi>a8C[>a>0
+R0
+I3LR6>UOLGfj7Xfhb]Bjnn2
+R1
+R2
+w1669572048
+8/home/miju/code/Verilog/Seq_3.v
+F/home/miju/code/Verilog/Seq_3.v
+!i122 83
+R27
+R4
+r1
+!s85 0
+31
+!s108 1669572054.000000
+!s107 /home/miju/code/Verilog/Seq_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/Seq_3.v|
+!i113 1
+R5
+R6
+vseq_31
+!s110 1669568620
+!i10b 1
+!s100 d^?K8e5jYOI1JQD@NkWn^2
+R0
+I7Qo2j`o=ECh;=Tm92]A9U3
+R1
+R2
+w1669568615
+8/home/miju/code/Verilog/Se3.1
+F/home/miju/code/Verilog/Se3.1
+!i122 82
+Z50 L0 1 7
+R4
+r1
+!s85 0
+31
+!s108 1669568620.000000
+!s107 /home/miju/code/Verilog/Se3.1|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/Se3.1|
+!i113 1
+R5
+R6
+vseq_32
+!s110 1669572433
+!i10b 1
+!s100 >;;;=^1FXI@:eG`RlBZXk2
+R0
+I?D6:znA<RC<nzI0^^]=P43
+R1
+R2
+w1669572427
+8/home/miju/code/Verilog/seq_32.v
+F/home/miju/code/Verilog/seq_32.v
+!i122 84
+R49
+R4
+r1
+!s85 0
+31
+!s108 1669572433.000000
+!s107 /home/miju/code/Verilog/seq_32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/seq_32.v|
+!i113 1
+R5
+R6
+vT_FF
+Z51 !s110 1669205970
+!i10b 1
+!s100 zbE=7Ygg67HLFLNJTc:=V3
+R0
+IHXzPMbVQcJCX`f5`LSzKh2
+R1
+R2
+Z52 w1669178190
+R39
+R40
+!i122 28
+R22
+R4
+r1
+!s85 0
+31
+Z53 !s108 1669205970.000000
+R42
+R43
+!i113 1
+R5
+R6
+n@t_@f@f
+vT_flop
+R37
+!i10b 1
+!s100 >dagN8kQhU8zjBYB1P;cj0
+R0
+I^UURh6cC5GLN15Gei_U_I3
+R1
+R2
+R38
+R39
+R40
+!i122 29
+L0 17 5
+R4
+r1
+!s85 0
+31
+R41
+R42
+R43
+!i113 1
+R5
+R6
+n@t_flop
+vtff
+!s110 1669211521
+!i10b 1
+!s100 EVGTOW^gJYh8K@jS8gG[B2
+R0
+I6LboU2X8h^lWTVX024kzo0
+R1
+R2
+w1669211514
+8/home/miju/code/Verilog/tff.v
+F/home/miju/code/Verilog/tff.v
+!i122 35
+R9
+R4
+r1
+!s85 0
+31
+!s108 1669211521.000000
+!s107 /home/miju/code/Verilog/tff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/tff.v|
+!i113 1
+R5
+R6
+vtff2
+!s110 1669518140
+!i10b 1
+!s100 _2NBc2T>eiN?2=G8TRfof0
+R0
+IL;O^][`R@a>U>6EIGN?2=3
+R1
+R2
+w1669518121
+8/home/miju/code/Verilog/tff2.v
+F/home/miju/code/Verilog/tff2.v
+!i122 48
+R9
+R4
+r1
+!s85 0
+31
+!s108 1669518140.000000
+!s107 /home/miju/code/Verilog/tff2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/tff2.v|
+!i113 1
+R5
+R6
+vtff_3
+!s110 1669559849
+!i10b 1
+!s100 3k>?kInglF;X3m11WLSbG0
+R0
+IL6fE8HXSN]XJbQV<cMzKd3
+R1
+R2
+w1669559844
+8/home/miju/code/Verilog/T_FF_3.v
+F/home/miju/code/Verilog/T_FF_3.v
+!i122 79
+R50
+R4
+r1
+!s85 0
+31
+!s108 1669559849.000000
+!s107 /home/miju/code/Verilog/T_FF_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/T_FF_3.v|
+!i113 1
+R5
+R6
+vtff_4
+!s110 1669602507
+!i10b 1
+!s100 m<egT`BBX61bk[=5FK_e[2
+R0
+INM8TVf07a[5l3<k@TfRgZ2
+R1
+R2
+w1669602503
+8/home/miju/code/Verilog/T_ff_4.v
+F/home/miju/code/Verilog/T_ff_4.v
+!i122 92
+R50
+R4
+r1
+!s85 0
+31
+!s108 1669602507.000000
+!s107 /home/miju/code/Verilog/T_ff_4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/T_ff_4.v|
+!i113 1
+R5
+R6
+vud_3
+!s110 1669560091
+!i10b 1
+!s100 X`gGBKRjoG2Lm5]kMizLl2
+R0
+I8>W6QR?eajCgWEOE9Xo[V1
+R1
+R2
+w1669560085
+8/home/miju/code/Verilog/UP_DOWN_3.v
+F/home/miju/code/Verilog/UP_DOWN_3.v
+!i122 80
+R19
+R4
+r1
+!s85 0
+31
+!s108 1669560091.000000
+!s107 /home/miju/code/Verilog/UP_DOWN_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/UP_DOWN_3.v|
+!i113 1
+R5
+R6
+vup_4
+!s110 1669602514
+!i10b 1
+!s100 IDImI5OZAh30z7Fbm8Va_0
+R0
+IkE_IERnGd;Q65@:?5b5iM2
+R1
+R2
+w1669602307
+8/home/miju/code/Verilog/Up_Down_4.v
+F/home/miju/code/Verilog/Up_Down_4.v
+!i122 93
+R20
+R4
+r1
+!s85 0
+31
+!s108 1669602514.000000
+!s107 /home/miju/code/Verilog/Up_Down_4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/Up_Down_4.v|
+!i113 1
+R5
+R6
+vUp_Down_Counter
+R51
+!i10b 1
+!s100 8:hfYj0`BO:BAWVRcUO7a2
+R0
+Io=OfdR2ST0co`K;G`;R9C0
+R1
+R2
+R52
+R39
+R40
+!i122 28
+L0 18 14
+R4
+r1
+!s85 0
+31
+R53
+R42
+R43
+!i113 1
+R5
+R6
+n@up_@down_@counter
+vupdown
+!s110 1669212630
+!i10b 1
+!s100 ^P;kh;GfVQ=[Q;3H<6KQc0
+R0
+IAD9WmOgRlioC;GjbVFHTP2
+R1
+R2
+w1669212626
+8/home/miju/code/Verilog/updown.v
+F/home/miju/code/Verilog/updown.v
+!i122 37
+R28
+R4
+r1
+!s85 0
+31
+!s108 1669212630.000000
+!s107 /home/miju/code/Verilog/updown.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/updown.v|
+!i113 1
+R5
+R6
+vupdown2
+!s110 1669518145
+!i10b 1
+!s100 =Cz7[<J@8T=dN_ZA8`]O43
+R0
+I9OSkJ9Dzi6>[4kZj3bTG82
+R1
+R2
+w1669517931
+8/home/miju/code/Verilog/updown2.v
+F/home/miju/code/Verilog/updown2.v
+!i122 49
+L0 1 12
+R4
+r1
+!s85 0
+31
+!s108 1669518145.000000
+!s107 /home/miju/code/Verilog/updown2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/miju/code/Verilog/updown2.v|
+!i113 1
+R5
+R6
+vupdown_counter
+R37
+!i10b 1
+!s100 1>IcdnzBE3GmQHn7F15YU3
+R0
+IokjC:@9LJNk1_omm00fNV2
+R1
+R2
+R38
+R39
+R40
+!i122 29
+L0 24 12
+R4
+r1
+!s85 0
+31
+R41
+R42
+R43
+!i113 1
+R5
+R6

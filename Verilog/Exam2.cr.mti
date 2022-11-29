@@ -1,0 +1,71 @@
+/home/miju/code/Verilog/excess3bcd2.v {1 {vlog -work work -stats=none /home/miju/code/Verilog/excess3bcd2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module e2b
+
+Top level modules:
+	e2b
+
+} {} {}} /home/miju/code/Verilog/bcd2excess3.v {1 {vlog -work work -stats=none /home/miju/code/Verilog/bcd2excess3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module b2e3
+
+Top level modules:
+	b2e3
+
+} {} {}} /home/miju/code/Verilog/ripple_counter2.v {1 {vlog -work work -stats=none /home/miju/code/Verilog/ripple_counter2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rc2
+
+Top level modules:
+	rc2
+
+} {} {}} /home/miju/code/Verilog/adder_subtractor2.v {1 {vlog -work work -stats=none /home/miju/code/Verilog/adder_subtractor2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module as2
+
+Top level modules:
+	as2
+
+} {} {}} /home/miju/code/Verilog/tff2.v {1 {vlog -work work -stats=none /home/miju/code/Verilog/tff2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tff2
+
+Top level modules:
+	tff2
+
+} {} {}} /home/miju/code/Verilog/half_adder.v {1 {vlog -work work -stats=none /home/miju/code/Verilog/half_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ha
+
+Top level modules:
+	ha
+
+} {} {}} /home/miju/code/Verilog/full_adder.v {1 {vlog -work work -stats=none /home/miju/code/Verilog/full_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fa
+
+Top level modules:
+	fa
+
+} {} {}} /home/miju/code/Verilog/jk2.v {1 {vlog -work work -stats=none /home/miju/code/Verilog/jk2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module jk2
+
+Top level modules:
+	jk2
+
+} {} {}} /home/miju/code/Verilog/updown2.v {1 {vlog -work work -stats=none /home/miju/code/Verilog/updown2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module updown2
+
+Top level modules:
+	updown2
+
+} {} {}} /home/miju/code/Verilog/mod102.v {1 {vlog -work work -stats=none /home/miju/code/Verilog/mod102.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mod2
+
+Top level modules:
+	mod2
+
+} {} {}}

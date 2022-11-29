@@ -1,0 +1,24 @@
+module jkff(j,k,clk,clr,q);
+input j,k,clk,clr;
+output q;
+wire[5:0]o;
+wire qbar;
+nand(o[0],qbar,clk,clr,j);
+nand(o[1],q,k,clk);
+nand(o[2],o[1],o[3]);
+nand(o[3],clr,o[1],o[2]);
+nand(o[4],o[2],~clk);
+nand(o[5],o[3],~clk);
+nand(q,o[4],qbar);
+nand(qbar,o[5],q,clr);
+endmodule
+
+module ripple(q,clk,clr);
+input clk,clr;
+output[3:0]q;
+jkff jk0(1,1,clk,clr,q[0]);
+jkff jk1(1,1,q[0],clr,q[1]);
+jkff jk2(1,1,q[1],clr,q[2]);
+jkff jk3(1,1,q[2],clr,q[3]);
+endmodule
+

@@ -1,0 +1,50 @@
+/home/miju/code/Verilog/seq_4.v {1 {vlog -work work -stats=none /home/miju/code/Verilog/seq_4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module s_4
+
+Top level modules:
+	s_4
+
+} {} {}} /home/miju/code/Verilog/JK_4.v {1 {vlog -work work -stats=none /home/miju/code/Verilog/JK_4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module jk_4
+
+Top level modules:
+	jk_4
+
+} {} {}} /home/miju/code/Verilog/T_ff_4.v {1 {vlog -work work -stats=none /home/miju/code/Verilog/T_ff_4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tff_4
+
+Top level modules:
+	tff_4
+
+} {} {}} /home/miju/code/Verilog/fa_4.v {1 {vlog -work work -stats=none /home/miju/code/Verilog/fa_4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fa_4
+
+Top level modules:
+	fa_4
+
+} {} {}} /home/miju/code/Verilog/Up_Down_4.v {1 {vlog -work work -stats=none /home/miju/code/Verilog/Up_Down_4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module up_4
+
+Top level modules:
+	up_4
+
+} {} {}} /home/miju/code/Verilog/Mod_4.v {1 {vlog -work work -stats=none /home/miju/code/Verilog/Mod_4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mod_4
+
+Top level modules:
+	mod_4
+
+} {} {}} /home/miju/code/Verilog/as_4.v {1 {vlog -work work -stats=none /home/miju/code/Verilog/as_4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module as_4
+
+Top level modules:
+	as_4
+
+} {} {}}

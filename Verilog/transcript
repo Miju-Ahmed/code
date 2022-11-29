@@ -1,0 +1,157 @@
+# Loading project Exam-3
+# reading /home/miju/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project Exam_4
+# Compile of fa_4.v was successful.
+# Compile of as_4.v was successful.
+vsim work.as_4
+# vsim work.as_4 
+# Start time: 08:03:43 on Nov 28,2022
+# Loading work.as_4
+# Loading work.fa_4
+add wave -position insertpoint  \
+sim:/as_4/s \
+sim:/as_4/m \
+sim:/as_4/cout \
+sim:/as_4/b \
+sim:/as_4/a
+force -freeze sim:/as_4/m 0 0
+force -freeze sim:/as_4/a 0011 0
+force -freeze sim:/as_4/b 0010 0
+run
+run
+force -freeze sim:/as_4/b 0011 0
+run
+quit -sim
+# End time: 08:05:25 on Nov 28,2022, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 7
+# Compile of as_4.v was successful.
+vsim work.as_4
+# vsim work.as_4 
+# Start time: 08:07:52 on Nov 28,2022
+# Loading work.as_4
+# Loading work.fa_4
+add wave -position insertpoint  \
+sim:/as_4/a \
+sim:/as_4/b \
+sim:/as_4/m \
+sim:/as_4/s \
+sim:/as_4/c
+force -freeze sim:/as_4/a 0101 0
+force -freeze sim:/as_4/b 0011 0
+force -freeze sim:/as_4/m 0 0
+run
+force -freeze sim:/as_4/m St1 0
+run
+quit -sim
+# End time: 08:09:16 on Nov 28,2022, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 2
+# Compile of JK_4.v was successful.
+# Compile of Mod_4.v was successful.
+vsim work.mod_4
+# vsim work.mod_4 
+# Start time: 08:21:02 on Nov 28,2022
+# Loading work.mod_4
+# Loading work.jk_4
+add wave -position insertpoint  \
+sim:/mod_4/clk \
+sim:/mod_4/clr \
+sim:/mod_4/a
+force -freeze sim:/mod_4/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/mod_4/clr 0 0
+run
+force -freeze sim:/mod_4/clr St1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 08:21:44 on Nov 28,2022, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 5
+# Compile of T_ff_4.v was successful.
+# Compile of Up_Down_4.v was successful.
+vsim work.up_4
+# vsim work.up_4 
+# Start time: 08:27:29 on Nov 28,2022
+# Loading work.up_4
+# Loading work.tff_4
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'jk_4'.
+#    Time: 0 ps  Iteration: 0  Instance: /up_4/tf0 File: /home/miju/code/Verilog/T_ff_4.v Line: 5
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'jk_4'.
+#    Time: 0 ps  Iteration: 0  Instance: /up_4/tf1 File: /home/miju/code/Verilog/T_ff_4.v Line: 5
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'jk_4'.
+#    Time: 0 ps  Iteration: 0  Instance: /up_4/tff2 File: /home/miju/code/Verilog/T_ff_4.v Line: 5
+# Error loading design
+# End time: 08:27:29 on Nov 28,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 7
+# Compile of T_ff_4.v was successful.
+# Compile of Up_Down_4.v was successful.
+vsim work.up_4
+# vsim work.up_4 
+# Start time: 08:28:46 on Nov 28,2022
+# Loading work.up_4
+# Loading work.tff_4
+# Loading work.jk_4
+add wave -position insertpoint  \
+sim:/up_4/m \
+sim:/up_4/clk \
+sim:/up_4/clr \
+sim:/up_4/a
+force -freeze sim:/up_4/m 0 0
+force -freeze sim:/up_4/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/up_4/clr 0 0
+run
+force -freeze sim:/up_4/clr St1 0
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/up_4/m St1 0
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 08:30:29 on Nov 28,2022, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 3
+# Compile of seq_4.v was successful.
+vsim work.s_4
+# vsim work.s_4 
+# Start time: 08:55:21 on Nov 28,2022
+# Loading work.s_4
+# Loading work.tff_4
+# Loading work.jk_4
+add wave -position insertpoint  \
+sim:/s_4/clk \
+sim:/s_4/clr \
+sim:/s_4/a
+force -freeze sim:/s_4/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/s_4/clr 0 0
+run
+force -freeze sim:/s_4/clr St1 0
+run
+run
+run
+run
+run
+run
+run
+run
+# Quit canceled
+quit -sim
+# End time: 08:56:48 on Nov 28,2022, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 4

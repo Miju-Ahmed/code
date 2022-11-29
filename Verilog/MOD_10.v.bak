@@ -1,0 +1,26 @@
+module JK_FF(j,k,clr,clk,q);
+input j,k,clr,clk;
+output q;
+wire o[7:0];
+wire n;
+not(n,clk);
+nand(o[0],j,clr,clk,o[7]);
+nand(o[1],k,clk,q);
+nand(o[2],o[0],o[3]);
+nand(o[3],o[2],clr,o[1]);
+nand(o[4],o[2],n);
+nand(o[5],n,o[3]);
+nand(o[6],o[7],o[4]);
+nand(o[7],o[6],clr,o[5]);
+assign q=o[6];
+endmodule
+
+module Ripple_Counter_4_Bit(q,clk,clr);
+output[3:0]q;
+input clk,clr;
+JK_FF jk0(1,1,clr,clk,q[0]);
+JK_FF jk1(1,1,clr,q[0],q[1]);
+JK_FF jk2(1,1,clr,q[1],q[2]);
+JK_FF jk3(1,1,clr,q[2],q[3]);
+nand(clr,q[1],q[3]);
+endmodule

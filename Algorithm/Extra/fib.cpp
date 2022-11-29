@@ -2,7 +2,7 @@
 using namespace std;
 #define ll long long
 ll a[200];
-memset(a,-1,sizeof(a));
+//memset(a,-1,sizeof(a));
 
 int fib(int n)
 {

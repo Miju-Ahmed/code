@@ -29,7 +29,6 @@ void Creat(struct node** head, int n)
                 last = last->next;
             }
             last->next = newNode;
-            
         }
     }
     return;

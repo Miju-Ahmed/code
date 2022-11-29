@@ -18,6 +18,7 @@ void dfs(int s)
     }
 }
 
+
 int main()
 {
     int n, e,c=0;

@@ -4,7 +4,6 @@ using namespace std;
 void solve()
 {
     long long n;
-    long long r;
     cin>>n;
     cout<<(n*n/2)<<endl;
 }

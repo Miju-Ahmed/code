@@ -56,6 +56,6 @@ float postfixEval(string postfix) {
 }
 
 int main() {
-   string post = "53+62/*35*+";
+   string post = "322*13^/-";
    cout << "The result is: "<<postfixEval(post);
 }

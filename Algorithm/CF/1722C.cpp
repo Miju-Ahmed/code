@@ -5,76 +5,44 @@ void solve()
 {
     int n;
     cin>>n;
-    string a[3];
-    string s;
-    int b[3] = {0};
+
+    map<string,int> freq;
+    vector<string>a[3];
     for(int i=0; i<3; i++)
     {
+        a[i].resize(n);
         for(int j=0; j<n; j++)
-            cin>>a[i][n];
+        {
+            cin>>a[i][j];
+            freq[a[i][j]]++;
+        }
     }
 
-
+    int p[3]={0};
+    for(int i=0; i<3; i++)
+    {
+        a[i].resize(n);
         for(int j=0; j<n; j++)
         {
-            if(a[0]==a[1]&&a[i]==a[2])
-                b[0] += 0;
-            else if(a[0]!=a[1]&&a[0]!=a[2])
-                b[0]+= 3;
-            else
-                b[0]+= 1;
+            if(freq[a[i][j]]==1)
+            {
+                p[i] += 3;
+            }
+            else if(freq[a[i][j]]==2)
+            {
+                p[i]+=1;
+            }
         }
-    for(int j=0; j<n; j++)
-        {
-            if(a[1]==a[0]&&a[1]==a[2])
-                b[1] += 0;
-            else if(a[1]!=a[0]&&a[1]!=a[2])
-                b[1]+= 3;
-            else
-                b[1]+= 1;
-        }
+    }
 
-        for(int j=0; j<n; j++)
-        {
-            if(a[2]==a[0]&&a[1]==a[1])
-                b[2] += 0;
-            else if(a[2]!=a[0]&&a[2]!=a[1])
-                b[2]+= 3;
-            else
-                b[2]+= 1;
-        }
-
-        for(int i=0; i<3; i++)
-            cout<<b[i]<<enld;
-    // string f[n], s[n], t[n];
-    // for(int i=0; i<n; i++)
-    //     cin>>f[i];
-    // for(int i=0; i<n; i++)
-    //     cin>>s[i];
-    // for(int i=0; t<n; i++)
-    //     cin>>f[i];
-    // string a;
-    // int a[3] = {0};
-    // for(int i=0; i<3; i++)
-    // {
-    //     for(int j=0; j<n; j++)
-    //     {
-    //         if(strcmp(f[i],s[i])==true&&strcmp(f[i],t[i])==true)
-    //             a[i] += 3;
-    //         else if(strcmp(f[i],s[i])==true&&strcmp(f[i],t[i])==true)
-    //             a[i] += 0;
-    //         else
-    //             a[i] += 1;
-    //     }
-    // }
-
-    // for(int i=0; i<3; i++)
-    //     cout<<a[i]<<" ";
-    // cout<<endl;
+    cout<<p[0]<<" "<<p[1]<<" "<<p[2]<<endl;
 }
 
 int main()
 {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin>>t;
     while(t--)

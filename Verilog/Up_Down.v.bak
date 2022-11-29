@@ -1,0 +1,31 @@
+module T_FF(j,k,clr,clk,q);
+input j,k,clr,clk;
+output q;
+wire o[7:0];
+wire n;
+not(n,clk);
+nand(o[0],j,clr,clk,o[7]);
+nand(o[1],k,clk,q);
+nand(o[2],o[0],o[3]);
+nand(o[3],o[2],clr,o[1]);
+nand(o[4],o[2],n);
+nand(o[5],n,o[3]);
+nand(o[6],o[7],o[4]);
+nand(o[7],o[6],clr,o[5]);
+assign q=o[6];
+endmodule
+
+module Up_Down_Counter(T,clr,clk,q);
+input[2:0]T;
+input clr,clk;
+output[2:0]q;
+assign T[0]=1;
+xor(T[1],m,q[0]);
+wire a,b;
+and(a,m,~q[0],~q[1]);
+and(b,~m,q[0],q[1]);
+or(T[2],a,b);
+T_FF t0(T[0],T[0],clr,clk,q[0]);
+T_FF t1(T[1],T[1],clr,q[0],q[1]);
+T_FF t2(T[2],T[2],clr,q[1],q[2]);
+endmodule
