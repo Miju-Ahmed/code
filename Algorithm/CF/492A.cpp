@@ -2,7 +2,6 @@
 using namespace std;
 #define Faster ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 #define ll long long
-#define forloop(i,a,b)  for(ll i=a;i<b;i++)
 
 //const ll inf=1e18+8;
 //int gcd(int a, int b){return b==0?a:gcd(b,a%b);}
@@ -11,9 +10,19 @@ using namespace std;
 
 void solve()
 {
-
+    int n,c=0, t=0,sum=0;  cin>>n;
+    int i=1;
+    while(sum<=n)
+    {
+        t=0;
+        for(int j=1; j<=i; j++)
+            t +=j;
+        sum += t;
+        c++;
+        i++;
+    }
+    cout<<c-1<<endl;
 }
-
 int main()
 {
     Faster;

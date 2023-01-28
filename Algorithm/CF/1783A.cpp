@@ -11,13 +11,28 @@ using namespace std;
 
 void solve()
 {
-
+    ll i, n;  cin>>n;
+    vector<int>v;
+    for(int i=0; i<n; i++)
+    {
+        int x;  cin>>x;
+        v.push_back(x);
+    }
+    sort(v.rbegin(), v.rend());
+    if(v[0]==v.back())  cout<<"NO"<<endl;
+    else
+    {
+        cout<<"YES\n"<<v.back()<<" ";
+        for(ll p=0; p<n-1; p++)
+            cout<<v[p]<<" ";
+        cout<<endl;
+    }
 }
 
 int main()
 {
     Faster;
-    int _=1;      //cin>>_;
+    int _=1;      cin>>_;
     while(_--)  solve();
     
     return 0;

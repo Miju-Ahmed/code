@@ -84,7 +84,7 @@ void searchKey(Node* &curr, int key, Node* &parent)
 {
     while (curr!=nullptr && curr->data!=key)
     {
-        parent->data = key;
+        parent = curr;
         if(key<curr->data)
         {
             curr = curr->left;

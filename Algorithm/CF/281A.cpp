@@ -2,16 +2,21 @@
 using namespace std;
 #define Faster ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 #define ll long long
-#define forloop(i,a,b)  for(ll i=a;i<b;i++)
-
-//const ll inf=1e18+8;
-//int gcd(int a, int b){return b==0?a:gcd(b,a%b);}
-//int prime(int x){for(int i=2; i<=sqrt(x); i++){if(x%i==0)return -1;}return 1;}
-//ll fact(int n){if(n>1) return n*fact(n-1); else return 1;}
+const ll inf=1e18+8;
+int gcd(int a, int b){return b==0?a:gcd(b,a%b);}
 
 void solve()
 {
-
+    string s;   cin>>s;
+    char ch=s[0];
+    if(ch>='a'&&ch<='z')
+    {
+        ch = toupper(ch);
+        s[0]=ch;
+        cout<<s<<endl;
+        return;
+    }
+    cout<<s<<endl;
 }
 
 int main()

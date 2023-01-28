@@ -11,7 +11,9 @@ using namespace std;
 
 void solve()
 {
-
+    int n;  cin>>n;
+    int c=(n/2)+1;
+    cout<<c<<endl;
 }
 
 int main()

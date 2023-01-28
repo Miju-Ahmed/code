@@ -11,7 +11,33 @@ using namespace std;
 
 void solve()
 {
-
+    int a, b;   cin>>a>>b;
+    int c=0,d=0;
+    int m = (a+b)/2;
+    int i=1;
+    if(a<b)
+    {
+        while(a!=b)
+        {
+            c += i; a++;
+            if(a==b)    break;
+            d += i; b--;
+            if(a==b)    break;
+            i++;
+        }
+    }
+    else
+    {
+        while(a!=b)
+        {
+            c += i; a--;
+            if(a==b)    break;
+            d += i; b++;
+            if(a==b)    break;
+            i++;
+        }
+    }
+    cout<<c+d<<endl;
 }
 
 int main()

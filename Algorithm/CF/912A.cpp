@@ -11,7 +11,29 @@ using namespace std;
 
 void solve()
 {
-
+    ll a,b,x,y,z;  cin>>a>>b>>x>>y>>z;
+    ll ye=0,g=0,bl=0;
+    ye = 2*x-a+y;
+    bl = 3*z+y-b;
+    if(ye>0)
+    {
+        if(bl>0)
+        {
+            cout<<ye+bl<<endl;
+        }
+        else
+            cout<<ye<<endl;
+    }
+    else if(ye<=0)
+    {
+        if(bl>0)
+            cout<<bl<<endl;
+        else
+            cout<<0<<endl;
+    }
+            
+    else
+        cout<<0<<endl;
 }
 
 int main()

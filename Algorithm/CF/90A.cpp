@@ -2,7 +2,6 @@
 using namespace std;
 #define Faster ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 #define ll long long
-#define forloop(i,a,b)  for(ll i=a;i<b;i++)
 
 //const ll inf=1e18+8;
 //int gcd(int a, int b){return b==0?a:gcd(b,a%b);}
@@ -11,7 +10,12 @@ using namespace std;
 
 void solve()
 {
-
+    int r,g,b;
+    cin>>r>>g>>b;
+    int ans = 30 + 3*((r+1)/2-1);
+    if (g) ans = max (ans, 31 + 3*((g+1)/2-1));
+    if (b) ans = max (ans, 32 + 3*((b+1)/2-1));
+    cout<<ans<<endl;
 }
 
 int main()
