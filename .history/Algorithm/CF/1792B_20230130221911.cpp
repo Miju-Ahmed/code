@@ -1,0 +1,50 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define Faster ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
+#define ll long long
+
+//const ll inf=1e18+8;
+//int gcd(int a, int b){return b==0?a:gcd(b,a%b);}
+//int prime(int x){for(int i=2; i<=sqrt(x); i++){if(x%i==0)return -1;}return 1;}
+//ll fact(int n){if(n>1) return n*fact(n-1); else return 1;}
+
+/*-----------------------------------solve()----------------------------------------------*/
+void solve()
+{
+    int a[4];    cin>>a[0]>>a[1]>>a[2]>>a[3];
+    int f=a[0],s=a[0],c=a[0];
+    if(a[0]==0)
+    {
+        cout<<1<<endl;
+        return;
+    }
+    else
+    {
+        if(a[1]<=a[2]&&a[1]!=0)
+            x = 2*a[1];
+        else if(a[2<=a[]])
+        if(a[1]!=0&&a[2]!=0)
+            x = x*2;
+        else if()
+        if(x<0)  x = -x;
+        c = c + x;
+        f = a[0];
+        s = a[0];
+        while(f>=0&&s>=0&&a[3]>0)
+        {
+            c++;    a[3]--;
+            f--;    s--;
+        }
+    }
+    cout<<c<<endl;
+}
+
+/*-------------------------------------main()---------------------------------------------*/
+int main()
+{
+    Faster;
+    int _=1;      cin>>_;
+    while(_--)  solve();
+    
+    return 0;
+}
