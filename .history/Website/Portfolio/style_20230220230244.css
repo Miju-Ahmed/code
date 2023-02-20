@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(Images/back.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    
+}
