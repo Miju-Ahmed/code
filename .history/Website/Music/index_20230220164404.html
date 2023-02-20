@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Music Listening</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img src="Image/logo.jpg" class="logo">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SPECIFICATIONS</a></li>
+                    <li><a href="#">CONNECT</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="left_col">
+                    <h1>THE<br>REAL<br>SOUND</h1>
+                </div>
+                <div class="right_col">
+                    <p>Click Here To Listen</p>
+                    <img src="Image/play.png" id="icon">
+                </div>
+            </div>
+        </div>
+        <video id="mySong">
+            <source src="Image/Mulk.mp4" type="video/mp4">
+        </video>
+        <script>
+            var mySong = document.getElementById("mySong");
+            var icon = document.getElementById("icon");
+            icon.onclick = function(){
+                if(mySong.paused){
+                    mySong.play();
+                    icon.src
+                }
+            }
+        </script>
+    </body>
+</html>
