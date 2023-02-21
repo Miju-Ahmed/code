@@ -33,7 +33,7 @@
     color: beige;
     font-size: 15px;
 }
-.content{
+#mySong. content{
     width: 100%;
     position:relative;
     top: 30%;
@@ -64,7 +64,7 @@
     width: 80px;
     cursor: pointer;
 }
-#mySong.vdo{
+.vdo{
     position: absolute;
     width: 400;
     bottom: 0;

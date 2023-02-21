@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: sans-serif;
+    border-radius: 35px;
+    padding: ;
+    background-image: linear-gradient(35deg,khaki,cyan);
+
+}
+.gallary{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    margin: 5% auto 0;
+    box-sizing: border-box;
+}
+.image-box{
+    margin: 0 1%;
+    flex-grow: 1;
+    flex-basis: 0;
+    transition: 0.5s;
+}
+.image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.image-box:hover{
+    flex-basis: 50%;
+}
+.active{
+    flex-basis: 50%;
+
+}
+.gallary:hover .active{
+    flex-basis: 0;   
+}
+.image-box:nth-last-child(1):hover{
+    flex-basis: 50%;
+}

@@ -64,7 +64,7 @@
     width: 80px;
     cursor: pointer;
 }
-#mySong.vdo{
+.vdo{
     position: absolute;
     width: 400;
     bottom: 0;

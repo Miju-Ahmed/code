@@ -35,7 +35,7 @@
 }
 .content{
     width: 100%;
-    position:relative;
+    position:absolute;
     top: 30%;
 }
 .left_col{
@@ -64,9 +64,4 @@
     width: 80px;
     cursor: pointer;
 }
-#mySong.vdo{
-    position: absolute;
-    width: 400;
-    bottom: 0;
-    right: 10%;
-}
+.vi
