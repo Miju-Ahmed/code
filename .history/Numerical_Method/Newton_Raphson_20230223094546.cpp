@@ -26,7 +26,7 @@ public:
             cout<<"Expected root is : "<<a<<endl;
             if(fabs(a-t)<=pre)
             {
-                cout<<"Root is : "<<a<<endl;
+                cout<<"Root is a<<endl;
                 break;
             }
         }

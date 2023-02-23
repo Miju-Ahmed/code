@@ -28,7 +28,7 @@ class Bisection
                 else    x0 = x;
                 cout<<"x0: "<<x0<<"\tx1: "<<x1<<"\tx: "<<x<<endl;
             } while (fabs(function(x0))>pre);
-            cout<<"Root is "<<x<<endl;
+            cout<<x<<endl;
         }
 };
 

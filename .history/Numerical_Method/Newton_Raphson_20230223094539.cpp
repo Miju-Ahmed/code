@@ -23,10 +23,10 @@ public:
         {
             double t = a;
             a = a - (function(a)/derivativeFunction(a));
-            cout<<"Expected root is : "<<a<<endl;
+            cout<<"Expected Root is : "<<a<<endl;
             if(fabs(a-t)<=pre)
             {
-                cout<<"Root is : "<<a<<endl;
+                cout<<a<<endl;
                 break;
             }
         }

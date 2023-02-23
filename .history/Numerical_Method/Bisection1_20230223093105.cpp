@@ -26,9 +26,9 @@ class Bisection
                 x = (x0+x1)/2;
                 if(function(x0)*function(x)<0)  x1 = x;
                 else    x0 = x;
-                cout<<"x0: "<<x0<<"\tx1: "<<x1<<"\tx: "<<x<<endl;
+                cout<<"x0: "
             } while (fabs(function(x0))>pre);
-            cout<<"Root is "<<x<<endl;
+            cout<<x<<endl;
         }
 };
 
